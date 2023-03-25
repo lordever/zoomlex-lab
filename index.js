@@ -1,5 +1,3 @@
-const labInstance = () => {
-    console.log('Hello world');
-};
+import { LabFactory } from "./lab-factory.js";
 
-labInstance();
+LabFactory.makeMsgLogging().showCase();
